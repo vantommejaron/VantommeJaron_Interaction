@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="clip-Custom_Size_1">
+      <rect width="200" height="200"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_1" data-name="Custom Size – 1" clip-path="url(#clip-Custom_Size_1)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(13 13)" fill="#fff" stroke="#000" stroke-width="7">
+      <circle cx="87.5" cy="87.5" r="87.5" stroke="none"/>
+      <circle cx="87.5" cy="87.5" r="84" fill="none"/>
+    </g>
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(75 75)" fill="#fff" stroke="#000" stroke-width="7">
+      <circle cx="25" cy="25" r="25" stroke="none"/>
+      <circle cx="25" cy="25" r="21.5" fill="none"/>
+    </g>
+    <line id="Line_1" data-name="Line 1" x2="63" transform="translate(13.5 100.5)" fill="none" stroke="#000" stroke-width="7"/>
+    <line id="Line_2" data-name="Line 2" x2="63" transform="translate(123.5 100.5)" fill="none" stroke="#000" stroke-width="7"/>
+  </g>
+</svg>

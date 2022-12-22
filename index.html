@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en" class="light_mode" id="dark_mode">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Pokémon - Jaron Vantomme</title>
+        <meta name="description" content="This is my HTML5 boilerplate.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="msapplication-TileColor" content="#3385FF">
+        <meta name="theme-color" content="#3385FF">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Favicon.svg">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#3385FF">
+
+        <link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/screen.css">      
+        <script src="script/test.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <link rel="stylesheet" href="script/chart.js">    
+    </head>
+    
+    <body>
+        <div class="c-nav__bar">
+            <img class="c-nav__logo" src="img/pokémon-logo.png" alt="Logo">   
+            <p class="c-nav__toggle">
+                <input 
+                class="o-hide-accessible c-option c-option--hidden js-darkmode-toggle"
+                type="checkbox"
+                id="toggle1"
+                />
+                <label
+                class="c-label c-label--option c-custom-toggle"
+                for="toggle1"
+                >
+                <span class="c-custom-toggle__fake-input"> </span>
+            </label>
+            <label class="c-label_dark_mode" for="toggle1">Enable Dark Mode! </label>
+            </p>
+        </div>
+        <div id="loader" class="loader"></div>
+        <div id="pokemon_cards" class="cards js-pokemon_cards js-popup_cards ">
+            <div class="card js-pokemon-popup o-hide-accessible">
+                <div class="card-item-title">#001</div>
+                <div class="card-item-picture">
+                    <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png" alt="">
+                </div>
+                <div class="card-item-name">BULLBASAUR</div>
+                <div class="card-item-type">
+                    <div class="position_type1"><div class="GRASS">GRASS</div></div>
+                    <div class="position_type2"><div class="GRASS">GRASS</div></div>
+                </div>
+            </div>      
+        </div>
+        <h2 id="paginanummer" class="pagenummers o-hide-accessible"> 
+            <button class="o-button__pagenummer" id="view_less"><svg class="pagenummer_icon" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 0 24 24" width="40px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg></button>
+               Pagina 1 van 23 
+            <button class="o-button__pagenummer" id="view_more"><svg class="pagenummer_icon" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 0 24 24" width="40px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg></button>
+        </h2>
+        <div id="close_popup_card" class=" c-pop-up o-hide-accessible js-popup_card">
+            <section class="o-row-popup">
+                <h2 class="tekst_popup">Bullbasaur - 001</h2>
+                <svg id="close_popup" class="close_popup js-close-popup" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+                <button id="close_popup" class="button_close_popup"></button>
+                <div class="o-container">
+                    <article>
+                        <div class="o-layout o-layout--gutter o-layout--align-center">
+                            <div class="o-layout__item u-1-of-2-bp3"> 
+                                <img class="popup-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png" alt="">
+                                    
+                            </div>
+                            <div class="o-layout__item u-1-of-2-bp3"> 
+                                <h2 class="popup_right_top_height">Height:<p class="pokemon_info"> &nbsp;0.7m</p> </h2>
+                                <h2 class="popup_right_top_weight">Weight:<p class="pokemon_info"> &nbsp;6.9kg</p> </h2>
+                                <h2 class="popup_right_top_abilities">Abilities:<p class="pokemon_info">&nbsp;Overgrow <br>&nbsp;fire <br>&nbsp;skjdqfjlqksdj </p> </h2>
+                                <div class="Chart js-Chart">
+                            </div>
+                        </div> 
+                    </article>
+                </div>
+            </section>
+        </div>
+        <script src="script/chart.js"></script>
+    </body>
+</html>
+
